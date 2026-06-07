@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
 import { Syne, Space_Mono, DM_Sans } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/features/navigation/components/Navbar";
-import Footer from "@/features/shared/components/Footer";
+import { Navbar, Footer } from "@/components";
 
 const syne = Syne({
   variable: "--font-syne",

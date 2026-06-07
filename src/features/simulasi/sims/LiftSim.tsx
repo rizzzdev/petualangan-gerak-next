@@ -1,7 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useRef, useState } from "react";
-import SimulationShell from "../../shared/components/SimulationShell";
+import SimulationShell from "~/components/SimulationShell";
 import { InfoBar, CtrlGrid, CtrlGroup, SimBtns, StatsRow } from "./RaceSim";
 
 function drawArrow(ctx: CanvasRenderingContext2D, x1: number, y1: number, x2: number, y2: number, color: string, label: string) {

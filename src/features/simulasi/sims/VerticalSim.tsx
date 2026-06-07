@@ -1,7 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useRef, useState } from "react";
-import SimulationShell from "../../shared/components/SimulationShell";
+import SimulationShell from "~/components/SimulationShell";
 import { InfoBar, CtrlGrid, CtrlGroup, SimBtns, StatsRow } from "./RaceSim";
 
 function glowBall(ctx: CanvasRenderingContext2D, x: number, y: number, r: number, dark: string, light: string) {

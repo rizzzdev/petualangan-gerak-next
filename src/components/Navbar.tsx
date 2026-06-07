@@ -10,6 +10,7 @@ const NAV_LINKS = [
   { href: "/materi", label: "Materi", icon: "📚" },
   { href: "/simulasi", label: "Simulasi", icon: "🎮" },
   { href: "/kuis", label: "Kuis", icon: "🧠" },
+  { href: "/profil", label: "Profil", icon: "👤" },
 ];
 
 export const HomeLink = () => {

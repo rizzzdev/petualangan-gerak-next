@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { HomeLink } from "~/features/navigation/components/Navbar";
+import { HomeLink } from "~/components/Navbar";
 
 const LINKS = [
   { href: "/", label: "Beranda" },
